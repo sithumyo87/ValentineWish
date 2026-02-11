@@ -106,6 +106,8 @@
     <script>
       const music = document.getElementById("bgMusic");
 
+      music.volume = 0.3;
+
       // Try autoplay
       window.addEventListener("load", () => {
         music.play().catch(() => {
